@@ -160,18 +160,18 @@
 }
 .swiper-intor-button-next {
   top: 50%;
-  right: -10%;
+  right: -15%;
   z-index: 100;
   img {
-    width: 120px;
+    width: 180px;
   }
 }
 .swiper-intor-button-prev {
   top: 50%;
-  left: -10%;
+  left: -15%;
   z-index: 100;
   transform:rotate(180deg);
   img {
-    width: 120px;
+    width: 180px;
   }
 }
