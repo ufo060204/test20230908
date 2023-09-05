@@ -6,6 +6,22 @@
 $primary: #7000ff;
 $primary-dark: #11002d;
 
+body {
+  font-weight: 700;
+}
+
+.font-noto-sans {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.font-shrikhand {
+  font-family: "Shrikhand", cursive;
+}
+
+.font-saira {
+  font-family: "Saira Extra Condensed", sans-serif;
+}
+
 .bg-parimary {
   background-color: #6d01f7;
 }
@@ -20,15 +36,18 @@ $primary-dark: #11002d;
   }
 }
 
-@mixin gradient-y($start-color: $primary, $end-color: $secondary) {
+@mixin bg-primary-gradient-y($start-color: $primary, $end-color: $secondary) {
   background-image: linear-gradient(to bottom, $start-color, $end-color);
 }
 
 .navbar-bg {
-  @include gradient-y($primary, $primary-dark);
+  @include bg-primary-gradient-y($primary, $primary-dark);
   @media (min-width: 992px) {
     background-image: none;
   }
+}
+.banner-bg {
+  @include bg-primary-gradient-y($primary, $primary-dark);
 }
 
 .navbar-brand {

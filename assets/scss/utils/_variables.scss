@@ -400,8 +400,11 @@ $spacers: (
   32: $spacer * 2,
   40: $spacer * 2.5,
   48: $spacer * 3,
+  52: $spacer * 3.25,
   56: $spacer * 3.5,
   64: $spacer * 4,
+  80: $spacer * 5,
+  144: $spacer * 9,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -444,7 +447,8 @@ $stretched-link-z-index:                  1 !default;
 //
 // Style p element.
 
-$paragraph-margin-bottom:   1rem !default;
+// $paragraph-margin-bottom:   1rem !default;
+$paragraph-margin-bottom:   0 !default; // *custom
 
 
 // Grid breakpoints
@@ -617,7 +621,8 @@ $font-sizes: (
 // scss-docs-end font-sizes
 
 // scss-docs-start headings-variables
-$headings-margin-bottom:      $spacer * .5 !default;
+// $headings-margin-bottom:      $spacer * .5 !default;
+$headings-margin-bottom:      0 !default; // *custom
 $headings-font-family:        null !default;
 $headings-font-style:         null !default;
 $headings-font-weight:        500 !default;
