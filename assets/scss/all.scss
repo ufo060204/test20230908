@@ -1,13 +1,12 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import './utils/variables';
-// 我們自己客製化的檔案
-@import './base/fontStyle';
-@import './utils/custom-color';
-
-@import './layout/header.scss';
-@import './layout/footer.scss';
 
 
 @import './pages/index.scss';
 
 @import "../../node_modules/bootstrap";
+// 我們自己客製化的檔案
+@import './base/fontStyle';
+@import './utils/custom-color';
+@import './layout/header.scss';
+@import './layout/footer.scss';
