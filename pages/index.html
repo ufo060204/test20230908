@@ -28,15 +28,10 @@
         observer: true,
         observeParents: true,
         autoplay:true,
-        on: {
-          observerUpdate: function(e){
-            // console.log(e)
-          }, 
-          resize: function(e){
-            // console.log(window.innerWidth)
-            console.log(e.width)
-            // console.log(e.autoplay = false)
-          }, 
+        breakpoints: { 
+          1760: {  
+            autoplay:false,
+          }
         },
       });
       console.log(window.innerWidth)
