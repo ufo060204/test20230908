@@ -11,7 +11,9 @@
   background-image: linear-gradient(to bottom, $start-color, $end-color);
 }
 
-
+.z-1000 {
+  z-index: 1000;
+}
 
 .navbar-bg {
   @include bg-primary-gradient-y($primary, $primary-dark);
@@ -160,7 +162,7 @@
 }
 .swiper-intor-button-next {
   top: 50%;
-  right: -15%;
+  right: 0%;
   z-index: 100;
   img {
     width: 180px;
@@ -168,7 +170,7 @@
 }
 .swiper-intor-button-prev {
   top: 50%;
-  left: -15%;
+  left: 0%;
   z-index: 100;
   transform:rotate(180deg);
   img {

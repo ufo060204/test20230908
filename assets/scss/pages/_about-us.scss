@@ -1,7 +1,5 @@
 @mixin bg-primary-gradient-circle-at-center($start-color: $primary, $end-color: $secondary) {
   background-image: radial-gradient(circle at center, $start-color, $end-color);
-  // background:radial-gradient(circle at center,yellow,red);
-  // background-image: linear-gradient(to bottom, $start-color, $end-color);
 }
 .about-us-banner-bg {
   @include bg-primary-gradient-circle-at-center(#280850 , #000000);

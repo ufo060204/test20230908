@@ -19,12 +19,27 @@
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
         loop: true,
         navigation: {
           nextEl: ".swiper-intor-button-next",
           prevEl: ".swiper-intor-button-prev",
         },
+        observer: true,
+        observeParents: true,
+        autoplay:true,
+        on: {
+          observerUpdate: function(e){
+            // console.log(e)
+          }, 
+          resize: function(e){
+            // console.log(window.innerWidth)
+            console.log(e.width)
+            // console.log(e.autoplay = false)
+          }, 
+        },
       });
+      console.log(window.innerWidth)
     </script>
   </body>
 </html>
