@@ -3,12 +3,15 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 
-.font-noto-sans {
-  font-family: "Noto Sans TC", sans-serif;
-}
 .font-shrikhand {
   font-family: "Shrikhand", cursive;
 }
 .font-saira {
   font-family: "Saira Extra Condensed", sans-serif;
+}
+* {
+  // outline: 1px solid red;
+}
+.test {
+  outline: 1px solid red;
 }

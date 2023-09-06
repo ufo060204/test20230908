@@ -1,0 +1,15 @@
+@mixin bg-primary-gradient-circle-at-center($start-color: $primary, $end-color: $secondary) {
+  background-image: radial-gradient(circle at center, $start-color, $end-color);
+}
+.about-us-banner-bg {
+  @include bg-primary-gradient-circle-at-center(#280850 , #000000);
+}
+.bg-about-us-banner {
+  background: url(/assets/images/about_us/about_us.png);
+  height: 280px;
+  background-position: center center;
+  background-size: cover;
+}
+.hr-bold {
+  border: 4px solid #000;
+}
