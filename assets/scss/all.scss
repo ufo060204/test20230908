@@ -1,12 +1,17 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import './utils/variables';
 
-
-@import './pages/index.scss';
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import './utils/utilities';
 
 @import "../../node_modules/bootstrap";
+
 // 我們自己客製化的檔案
+@import './pages/index.scss';
+@import './pages/about-us';
 @import './base/fontStyle';
+@import './base/base';
 @import './utils/custom-color';
 @import './layout/header.scss';
 @import './layout/footer.scss';
