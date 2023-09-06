@@ -9,34 +9,45 @@
   <body>
     <%- include('./layout/header'); -%>
 
-
-    <!-- Modal 按鈕 -->
-    <button type="button" class="btn btn-primary-200" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      打開 modal
-    </button>
-
-    <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">內容</div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
-            <button type="button" class="btn btn-primary">確定</button>
-          </div>
+<!-- 聯絡我們 -->
+<div class="contact bg-primary-500">
+  <div class="container">
+    <div class="row">
+      <div class="col-5 fw-bold ">
+        <h3 class="fs-3 title text-white mb-20">聯絡我們</h3>
+        <div class="d-flex mb-54">
+          <div class="rounded-circle bg-white me-8"></div>
+          <span class="line rounded-pill"></span>
         </div>
+        <p class="text-white">讓科技成為您的最佳夥伴<br>立即體驗神奇功能並享限時優惠！</p>
+      </div>
+      <div class="col-7">
+        <img class="mb-16" src="../assets/images/emergency.png" alt="">
+        <input class="form-control mb-16 rounded-0" type="email" placeholder="EMAIL">
+        <input class="form-control rounded-0 comments" type="text" placeholder="COMMENTS">
       </div>
     </div>
+  </div>
+</div>
+<!-- 選角色 -->
+<div class="container-fulid bg-black text-white">
+  <div class="row">
+    <div class="col-3">
+      <a href="#" class="text-white flex-column justify-content-center align-items-center px-40 pt-24 pb-56">
+        <p class="number font-saira text-center pb-20">1</p>
+        <h3 class="f-shrikhand fs-4">Diane</h3>
+        <div class="d-flex justify-content-between align-items-center">
+          <div>
+            <h3 class="fs-6 fw-bold">知識型</h3>
+            <p>學術領導/知識分享/智能問答</p>
+          </div>
+          <img class="line-arrow" src="../assets/images/line_end_arrow_notch.png" alt="">
+        </div>
+      </a>
+    </div>
+  </div>
+
+</div>
 
     <%- include('./layout/footer'); -%>
 

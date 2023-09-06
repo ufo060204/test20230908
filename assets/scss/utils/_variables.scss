@@ -312,7 +312,10 @@ $primary-100: #E9E2F3;
 $primary-200: #7000FF;
 $primary-300: #6e01F8;
 $primary-400: #380C7E;
+$primary-500: #1F0F39;
+$black: #000000;
 
+// 客製化顏色
 // scss-docs-start theme-colors-map
 $theme-colors: (
   "primary":    $primary,
@@ -323,10 +326,12 @@ $theme-colors: (
   "danger":     $danger,
   "light":      $light,
   "dark":       $dark,
+  "black":      $black,
   "primary-100":   $primary-100,
   "primary-200":   $primary-200,
   "primary-300":   $primary-300,
   "primary-400":   $primary-400,
+  "primary-500":   $primary-500,
 
 ) !default;
 // scss-docs-end theme-colors-map
@@ -381,6 +386,7 @@ $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
 // You can add more entries to the $spacers map, should you need more variation.
 
 // scss-docs-start spacer-variables-maps
+// 客製化間距
 $spacer: 1rem !default;
 $spacers: (
   // 0: 0,
@@ -400,6 +406,7 @@ $spacers: (
   32: $spacer * 2,
   40: $spacer * 2.5,
   48: $spacer * 3,
+  54: $spacer * 3.375,
   56: $spacer * 3.5,
   64: $spacer * 4,
 ) !default;
@@ -591,6 +598,7 @@ $line-height-base:            1.5 !default;
 $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
+// 客製化文字
 // $h1-font-size:                $font-size-base * 2.5 !default;
 // $h2-font-size:                $font-size-base * 2 !default;
 // $h3-font-size:                $font-size-base * 1.75 !default;
