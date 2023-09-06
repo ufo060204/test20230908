@@ -298,7 +298,8 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary:       $blue !default;
+// $primary:       $blue !default;
+$primary:       #7000ff !default; // *custom
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -314,6 +315,7 @@ $primary-300: #6e01F8;
 $primary-400: #380C7E;
 $primary-500: #1F0F39;
 $black: #000000;
+$primary-dark: #11002d;
 
 // 客製化顏色
 // scss-docs-start theme-colors-map
@@ -332,6 +334,7 @@ $theme-colors: (
   "primary-300":   $primary-300,
   "primary-400":   $primary-400,
   "primary-500":   $primary-500,
+  "primary-dark":   $primary-dark,
 
 ) !default;
 // scss-docs-end theme-colors-map
@@ -407,8 +410,11 @@ $spacers: (
   40: $spacer * 2.5,
   48: $spacer * 3,
   54: $spacer * 3.375,
+  52: $spacer * 3.25,
   56: $spacer * 3.5,
   64: $spacer * 4,
+  80: $spacer * 5,
+  144: $spacer * 9,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -451,7 +457,8 @@ $stretched-link-z-index:                  1 !default;
 //
 // Style p element.
 
-$paragraph-margin-bottom:   1rem !default;
+// $paragraph-margin-bottom:   1rem !default;
+$paragraph-margin-bottom:   0 !default; // *custom
 
 
 // Grid breakpoints
@@ -625,7 +632,8 @@ $font-sizes: (
 // scss-docs-end font-sizes
 
 // scss-docs-start headings-variables
-$headings-margin-bottom:      $spacer * .5 !default;
+// $headings-margin-bottom:      $spacer * .5 !default;
+$headings-margin-bottom:      0 !default; // *custom
 $headings-font-family:        null !default;
 $headings-font-style:         null !default;
 $headings-font-weight:        500 !default;
